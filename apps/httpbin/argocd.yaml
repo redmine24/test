@@ -1,0 +1,4 @@
+chart: 
+  chart: httpbin
+  targetRevision: 0.1.1
+  repoURL: https://matheusfm.dev/charts
