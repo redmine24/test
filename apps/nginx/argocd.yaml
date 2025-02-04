@@ -1,0 +1,6 @@
+source: 
+  chart: nginx
+  targetRevision: 18.3.5
+  repoURL: registry-1.docker.io/bitnamicharts
+destination:
+  namespace: nginx
