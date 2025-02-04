@@ -1,5 +1,5 @@
 labels:
-  "test": "true"
+  "test": "{{.Values.substitution.test}}"
 
 containers:
   memcached:
