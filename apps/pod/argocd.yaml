@@ -1,6 +1,6 @@
 source: 
   chart: pod
   targetRevision: 1.0.1
-  repoURL: ameijer.github.io/k8s-as-helm/
+  repoURL: https://ameijer.github.io/k8s-as-helm/
 destination:
   namespace: pod
