@@ -1,4 +1,4 @@
-substitute: &substitute "bob"
+# substitute: &substitute "bob"
 
 labels:
   "test": *substitute
