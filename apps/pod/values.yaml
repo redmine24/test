@@ -1,5 +1,7 @@
+substitute: &substitute "bob"
+
 labels:
-  "test": "{{.Values.xxx}}"
+  "test": *substitute
 
 containers:
   memcached:
