@@ -8,20 +8,15 @@ containers:
     image: memcached:latest
     extraSettings:
       imagePullPolicy: IfNotPresent
-      command:
-        - /bin/sh
-        - -c
-        - |
-          echo "hello world 1" && sleep 3600
-  alpine:
-    image: alpine:latest
-    extraSettings:
-      imagePullPolicy: IfNotPresent
-      command:
-        - /bin/sh
-        - -c
-        - |
-          echo "hello world 1" && sleep 3600
+# alpine:
+#   image: alpine:latest
+#   extraSettings:
+#     imagePullPolicy: IfNotPresent
+#     command:
+#       - /bin/sh
+#       - -c
+#       - |
+#         echo "hello world 1" && sleep 3600
 
 extraSettings:
   securityContext:
