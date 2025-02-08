@@ -16,7 +16,9 @@ registries:
 releases:
   - name: minio
     <<: *options
-    chart: oci://registry-1.docker.io/bitnamicharts/minio
+    chart:
+      name: oci://registry-1.docker.io/bitnamicharts/minio
+      version: 15.0.2
     tags: [minio]
     values:
       - minio-values.yml
