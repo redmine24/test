@@ -21,4 +21,4 @@ releases:
       version: 15.0.2
     tags: [minio]
     values:
-      - minio-values.yml
+      - values.yml
